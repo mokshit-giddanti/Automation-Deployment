@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deployment Timer</title>
+    <script>
+        let countdown = 300;
+        function updateTimer() {
+            let minutes = Math.floor(countdown / 60);
+            let seconds = countdown % 60;
+            document.getElementById('timer').innerText = `${minutes}m ${seconds}s`;
+            if (countdown <= 0) {
+                clearInterval(timerInterval);
+            }
+            countdown--;
+        }
+        const timerInterval = setInterval(updateTimer, 1000);
+    </script>
+</head>
+<body>
+    <h1>Deployment Timer</h1>
+    <p>Time remaining: <span id="timer">5m 0s</span></p>
+</body>
+</html>

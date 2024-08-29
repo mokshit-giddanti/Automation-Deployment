@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv
+# IDE/editor directories
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Logs
+*.log
