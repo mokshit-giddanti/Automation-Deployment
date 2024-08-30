@@ -1,5 +1,13 @@
+do not ever use virtual env in docker 
+
+
+
+
+
 THIS IS A PERSONAL MESSAGE 
 ---------------------------
 IF U SEE THIS AFTER SOME YEAYS THEN U HAVE succeeded IN WHAT YOU WERE DOING ...........
+
+
 TALK TO YOU LATER ALIGATOR LOL XD :)
 
