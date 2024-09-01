@@ -3,13 +3,14 @@
 <head>
     <title>Deployment Timer</title>
     <script>
-        let countdown = 300;
+        let countdown = 10;  // 5 minutes in seconds
         function updateTimer() {
             let minutes = Math.floor(countdown / 60);
             let seconds = countdown % 60;
             document.getElementById('timer').innerText = `${minutes}m ${seconds}s`;
             if (countdown <= 0) {
                 clearInterval(timerInterval);
+                window.location.href = "{{ url_for('result', public_ip=public_ip) }}";
             }
             countdown--;
         }

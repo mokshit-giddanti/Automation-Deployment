@@ -8,10 +8,13 @@
     <form action="/" method="post">
         <label for="access_key">AWS Access Key:</label>
         <input type="text" id="access_key" name="access_key" required><br>
+        
         <label for="secret_key">AWS Secret Key:</label>
-        <input type="text" id="secret_key" name="secret_key" required><br>
+        <input type="password" id="secret_key" name="secret_key" required><br>
+        
         <label for="github_repo_url">GitHub Repository URL:</label>
-        <input type="text" id="github_repo_url" name="github_repo_url" required><br>
+        <input type="url" id="github_repo_url" name="github_repo_url" required><br>
+        
         <input type="submit" value="Submit">
     </form>
 </body>
